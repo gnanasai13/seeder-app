@@ -1,0 +1,130 @@
+.summary2-main-container {
+    box-sizing: border-box;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 22px;
+    gap: 20px;
+  
+    position: absolute;
+    width: 340px;
+    height: 385px;
+    left: 938px;
+    top: 100px;
+  
+    /* background/elevation 1 */
+  
+    background: #201f24;
+    /* border/low emp */
+  
+    border: 1px solid #28272b;
+    border-radius: 12px;
+  }
+  
+  .summary2-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+    width: 276px;
+    height: 29px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .summary2-body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+  
+    width: 276px;
+    height: 124px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+  }
+  
+  .summary2-row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+  
+    width: 276px;
+    height: 22px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    justify-content: space-between;
+  }
+  
+  .summary2-row7 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0px;
+    gap: 12px;
+  
+    width: 276px;
+    height: 29px;
+    margin-top: 20px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 4;
+    align-self: stretch;
+    flex-grow: 0;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .summary2-review-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 40px;
+    gap: 8px;
+  
+    width: 276px;
+    height: 59px;
+  
+    /* Primary/purple/500
+  
+  Primary action color
+  */
+    background: #6c5dd3 !important;
+    border-radius: 12px !important;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 5;
+    align-self: stretch;
+    flex-grow: 0;
+    text-transform: capitalize !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+  }
+  

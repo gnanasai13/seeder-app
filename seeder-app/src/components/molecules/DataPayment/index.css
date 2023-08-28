@@ -1,0 +1,17 @@
+.size {
+  box-sizing: border-box;
+  position: absolute;
+  top: 100px;
+  left: 220px;
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  height: 200px;
+  padding: 32px;
+  justify-content: center;
+  gap: 12px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  border: 1px solid var(--border-low-emp, #28272b);
+  background: var(--background-elevation-1, #201f24);
+}

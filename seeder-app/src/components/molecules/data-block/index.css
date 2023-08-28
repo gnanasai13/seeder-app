@@ -1,0 +1,50 @@
+.datablock-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 24px;
+  flex: 1 0 0;
+  width: 204px;
+  height: 168px;
+}
+
+.datablock-iconcontainer {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 12px;
+    height: 70px;
+  border: 1px solid var(--border-low-emp, #28272b);
+  background: var(--grey-100, #262529);
+  color: #CFC8FF;
+}
+
+.datablock-textcontainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  width: 204px;
+  height: 22px !important;
+}
+
+.datablock-valuecontainer {
+  display: flex;
+  height: 34px;
+  width: 204px;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.datablock-textcontainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  width:204px;
+  height: 64px;
+}

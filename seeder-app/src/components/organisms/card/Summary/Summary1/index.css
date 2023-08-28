@@ -1,0 +1,230 @@
+.summary1-main-container {
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 22px;
+  gap: 20px;
+
+  position: absolute;
+  width: 340px;
+  height: 480px;
+  left: 938px;
+  top: 100px;
+
+  /* background/elevation 1 */
+
+  background: #201f24;
+  /* border/low emp */
+
+  border: 1px solid #28272b;
+  border-radius: 12px;
+}
+
+.summary1-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+
+  width: 276px;
+  height: 29px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.summary1-body-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 276px;
+  height: 56px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.summary1-row1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 276px;
+  height: 22px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  justify-content: space-between;
+}
+
+.summary1-row7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 12px;
+
+  width: 276px;
+  height: 29px;
+  margin-top: 20px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 5;
+  align-self: stretch;
+  flex-grow: 0;
+  justify-content: space-between;
+}
+
+.summary1-row2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 286px;
+  height: 100px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.summary1-reset-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6px 12px;
+  gap: 8px;
+
+  width: 65px;
+  height: 31px;
+
+  /* background/elevation 2 */
+
+  background: #2d2d30 !important;
+  color: #c9c8cc !important;
+  border-radius: 12px !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+  text-transform: capitalize !important;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.summary1-row3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 286px;
+  height: 31px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  justify-content: space-between;
+}
+
+.summary1-row4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 12px;
+
+  width: 286px;
+  height: 23px;
+}
+
+.summary1-row5 {
+  display: flex;
+  flex-direction: row;
+
+  padding: 0px;
+  gap: 5px;
+
+  width: 286px;
+  height: 22px;
+}
+
+.summary1-row6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 12px;
+
+  width: 276px;
+  height: 56px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.summary1-review-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 8px;
+
+  width: 276px;
+  height: 59px;
+
+  /* Primary/purple/500
+
+Primary action color
+*/
+  background: #6c5dd3 !important;
+  border-radius: 12px !important;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 6;
+  align-self: stretch;
+  flex-grow: 0;
+  text-transform: capitalize !important;
+  font-size: 16px !important;
+  line-height: 19px !important;
+}

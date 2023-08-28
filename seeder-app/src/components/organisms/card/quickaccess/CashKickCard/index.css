@@ -1,0 +1,40 @@
+.cashkickcard-container {
+  box-sizing: border-box;
+
+  height: 200px;
+  display: flex;
+  width: 340px;
+  padding: 25px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  position: absolute;
+  left: 940px;
+  top: 100px;
+  border-radius: 12px;
+  border: 1px solid var(--border-low-emp, #28272b);
+  background: var(--background-elevation-1, #201f24);
+}
+
+.cashkickcard-textcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.cashkickcard-button {
+  display: flex;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  width: 276px;
+  height: 59px;
+  border-radius: 12px !important;
+  text-transform: capitalize !important;
+  color:#E8E8E9 !important;
+  background: var(--primary-purple-500, #6c5dd3) !important;
+}

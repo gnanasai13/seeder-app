@@ -45,10 +45,15 @@ src/
   - index.tsx
   - index.html
 
-- `components`: Contains different levels of components, following the atomic design principles.
-- `themes`: Custom Material-UI themes and styling
-- `App.tsx`: Application entry component
-- `index.html`: HTML template for the application.
-- `index.tsx`: JavaScript entry point for the application
+`components`: Contains different levels of components, following the atomic design principles.
+<br>
+`themes`: Custom Material-UI themes and styling.
+<br>
+`App.tsx`: Application entry component.
+<br>
+`index.html`: HTML template for the application.
+<br>
+`index.tsx`: JavaScript entry point for the application.
+<br>
 
 
